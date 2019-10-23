@@ -1,0 +1,11 @@
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"V**,V**,V**,V**,V**,V**";"VIA-0.6mm";6;"VIA-0.6mm";;;
+2;"IC1";"MS5637_1";1;"MS563702BA03-50";;;
+3;"U1";"UFBGA_15CC1";1;"ATTINY24A-CCU";;;
+4;"D1";"0402";1;"LED";;;
+5;"R2,R3,R1";"0402";3;"10KOHM-0402";;;
+6;"R4";"0402";1;"33OHM-0402";;;
+7;"C1,C2";"0402";2;"100nF_0402";;;
+8;"INTEGRATE";"2mm_hole";1;"2mm_hole";;;
+9;"BATT_3V";"Keystone2994_4.8mm_coincellholder";1;"Keystone2994_4.8mm_coincellholder";;;
+10;"J1";"50mil_POGO";1;"AVR_SPI_PROG_3X2TESTPOINTS";;;

@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>R:\Users\darkb\Dropbox\Electronics\nanoAlt_Alpha\nanoAlt_Alpha.sch</source>
+    <date>29/07/2018 14:31:49</date>
+    <tool>Eeschema (5.0.0)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>nanoAlt_Alpha.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>ATTINY24A-CCU</value>
+      <footprint>My_IC:UFBGA_15CC1</footprint>
+      <libsource lib="My_IC" part="ATTINY24A-CCU" description="SO14, 2k Flash, 128B SRAM, 128B EEPROM, dW"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B059FDA</tstamp>
+    </comp>
+    <comp ref="IC1">
+      <value>MS563702BA03-50</value>
+      <footprint>MS563702BA03-50:MS5637_1</footprint>
+      <datasheet>http://docs-europe.electrocomponents.com/webdocs/142c/0900766b8142cddb.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">MS563702BA03-50</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/ms563702ba03-50/te-connectivity</field>
+        <field name="Description">Sensor Pressure 2bar Barometric SMD MS563702BA03-50, Barometric Pressure Sensor, 1200mbar 0 ??? 3.6 V Output, 4-Pin QFN</field>
+        <field name="Manufacturer_Name">TE Connectivity</field>
+        <field name="Manufacturer_Part_Number">MS563702BA03-50</field>
+        <field name="RS Part Number">1704370</field>
+        <field name="RS Price/Stock">http://uk.rs-online.com/web/p/products/1704370</field>
+      </fields>
+      <libsource lib="MS563702BA03-50" part="MS563702BA03-50" description="Sensor Pressure 2bar Barometric SMD MS563702BA03-50, Barometric Pressure Sensor, 1200mbar 0 ??? 3.6 V Output, 4-Pin QFN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B05A2AC</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10KOHM-0402</value>
+      <footprint>My_PASSIVES:0402</footprint>
+      <fields>
+        <field name="Field4">RES-00824</field>
+      </fields>
+      <libsource lib="SparkFun-Resistors" part="10KOHM-0603-1_10W-1%" description="10k  resistor A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B05AD7B</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>100nF_0402</value>
+      <footprint>My_PASSIVES:0402</footprint>
+      <fields>
+        <field name="Field4">CAP-08604</field>
+      </fields>
+      <libsource lib="SparkFun-Capacitors" part="0.1UF-0603-25V-5%" description="0.1uF ceramic capacitors A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field."/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B05AECD</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>100nF_0402</value>
+      <footprint>My_PASSIVES:0402</footprint>
+      <fields>
+        <field name="Field4">CAP-08604</field>
+      </fields>
+      <libsource lib="SparkFun-Capacitors" part="0.1UF-0603-25V-5%" description="0.1uF ceramic capacitors A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field."/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B05AFAD</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>AVR_SPI_PROG_3X2TESTPOINTS</value>
+      <footprint>My_Connectors:50mil_POGO</footprint>
+      <libsource lib="SparkFun-Connectors" part="AVR_SPI_PROG_3X2TESTPOINTS" description="AVR ISP 6 Pin This is the reduced ISP connector for AVR programming. Common on Arduino. This footprint will take up less PCB space and can be used with a 10-pin to 6-pin adapter such as SKU: BOB-08508 &lt;b&gt;**Special note about &quot;TEST_POINT&quot; package.&lt;/b&gt; The stop mask is on the top side, so if you want your programming test points to be on the bottom of your board, make sure to place this package on the bottom side of the board. This also ensure that the orientation to program from the bottom side will be correct. SparkFun Products:&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/11591&quot;&gt;SparkFun ISP Pogo Adapter&lt;/a&gt; - NS&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/11801&quot;&gt;Tiny AVR Programmer&lt;/a&gt; -PTH&lt;/li&gt;&lt;/ul&gt;"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B05B385</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10KOHM-0402</value>
+      <footprint>My_PASSIVES:0402</footprint>
+      <fields>
+        <field name="Field4">RES-00824</field>
+      </fields>
+      <libsource lib="SparkFun-Resistors" part="10KOHM-0603-1_10W-1%" description="10k  resistor A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B05D76B</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>10KOHM-0402</value>
+      <footprint>My_PASSIVES:0402</footprint>
+      <fields>
+        <field name="Field4">RES-00824</field>
+      </fields>
+      <libsource lib="SparkFun-Resistors" part="10KOHM-0603-1_10W-1%" description="10k  resistor A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B05D8C1</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>33OHM-0402</value>
+      <footprint>My_PASSIVES:0402</footprint>
+      <fields>
+        <field name="Field4">RES-08270</field>
+      </fields>
+      <libsource lib="SparkFun-Resistors" part="33OHM-0603-1_10W-1%" description="33  resistor A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B05DD62</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>My_PASSIVES:0402</footprint>
+      <libsource lib="Device" part="LED" description="LED generic"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B05E1E8</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Device" part="LED">
+      <description>LED generic</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MS563702BA03-50" part="MS563702BA03-50">
+      <description>Sensor Pressure 2bar Barometric SMD MS563702BA03-50, Barometric Pressure Sensor, 1200mbar 0 ??? 3.6 V Output, 4-Pin QFN</description>
+      <docs>http://docs-europe.electrocomponents.com/webdocs/142c/0900766b8142cddb.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">MS563702BA03-50</field>
+        <field name="Footprint">MS5637_1</field>
+        <field name="Datasheet">http://docs-europe.electrocomponents.com/webdocs/142c/0900766b8142cddb.pdf</field>
+        <field name="Description">Sensor Pressure 2bar Barometric SMD MS563702BA03-50, Barometric Pressure Sensor, 1200mbar 0 ??? 3.6 V Output, 4-Pin QFN</field>
+        <field name="Manufacturer_Name">TE Connectivity</field>
+        <field name="Manufacturer_Part_Number">MS563702BA03-50</field>
+        <field name="RS Part Number">1704370</field>
+        <field name="RS Price/Stock">http://uk.rs-online.com/web/p/products/1704370</field>
+        <field name="Arrow Part Number">MS563702BA03-50</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/ms563702ba03-50/te-connectivity</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="BiDi"/>
+        <pin num="2" name="SDA" type="BiDi"/>
+        <pin num="3" name="SCL" type="BiDi"/>
+        <pin num="4" name="GND" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="My_IC" part="ATTINY24A-CCU">
+      <aliases>
+        <alias>ATTINY44A-SSU</alias>
+        <alias>ATTINY84A-SSU</alias>
+      </aliases>
+      <description>SO14, 2k Flash, 128B SRAM, 128B EEPROM, dW</description>
+      <docs>http://www.atmel.com/Images/doc8183.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ATTINY24A-CCU</field>
+      </fields>
+      <pins>
+        <pin num="A2" name="(PCINT5/DO/MISO/OC1B/ADC5)PA5" type="BiDi"/>
+        <pin num="A3" name="(PCINT6/SDA/DI/MOSI/OC1A/ADC6)PA6" type="BiDi"/>
+        <pin num="A4" name="(PCINT10/CKOUT/OC0A/INT0)PB2" type="BiDi"/>
+        <pin num="B1" name="(PCINT4/USCK/SCL/T1/ADC4)PA4" type="BiDi"/>
+        <pin num="B2" name="(PCINT7/ICP/OC0B/ADC7)PA7" type="BiDi"/>
+        <pin num="B3" name="(PCINT9/XTAL2)PB1" type="BiDi"/>
+        <pin num="B4" name="(PCINT11/dW/~RESET~)PB3" type="BiDi"/>
+        <pin num="C1" name="(PCINT3/T0/ADC3)PA3" type="BiDi"/>
+        <pin num="C2" name="(PCINT2/AIN1/ADC2)PA2" type="BiDi"/>
+        <pin num="C3" name="(PCINT1/AIN0/ADC1)PA1" type="BiDi"/>
+        <pin num="C4" name="(PCINT8/CLKI/XTAL1)PB0" type="BiDi"/>
+        <pin num="D1" name="(PCINT0/AREF/ADC0)PA0" type="BiDi"/>
+        <pin num="D2" name="GND" type="power_in"/>
+        <pin num="D3" name="GND" type="power_in"/>
+        <pin num="D4" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="SparkFun-Capacitors" part="0.1UF-0603-25V-5%">
+      <description>0.1uF ceramic capacitors A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field.</description>
+      <footprints>
+        <fp>*0603*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">0.1UF-0603-25V-5%</field>
+        <field name="Footprint">0603</field>
+        <field name="Field4">CAP-08604</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SparkFun-Connectors" part="AVR_SPI_PROG_3X2TESTPOINTS">
+      <description>AVR ISP 6 Pin This is the reduced ISP connector for AVR programming. Common on Arduino. This footprint will take up less PCB space and can be used with a 10-pin to 6-pin adapter such as SKU: BOB-08508 &lt;b&gt;**Special note about "TEST_POINT" package.&lt;/b&gt; The stop mask is on the top side, so if you want your programming test points to be on the bottom of your board, make sure to place this package on the bottom side of the board. This also ensure that the orientation to program from the bottom side will be correct. SparkFun Products:&lt;ul&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/11591"&gt;SparkFun ISP Pogo Adapter&lt;/a&gt; - NS&lt;/li&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/11801"&gt;Tiny AVR Programmer&lt;/a&gt; -PTH&lt;/li&gt;&lt;/ul&gt;</description>
+      <footprints>
+        <fp>*2X3_TEST_POINTS*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">AVR_SPI_PROG_3X2TESTPOINTS</field>
+        <field name="Footprint">2X3_TEST_POINTS</field>
+        <field name="Field4">XXX-00000</field>
+      </fields>
+      <pins>
+        <pin num="1" name="MISO" type="passive"/>
+        <pin num="2" name="VCC" type="passive"/>
+        <pin num="3" name="SCK" type="passive"/>
+        <pin num="4" name="MOSI" type="passive"/>
+        <pin num="5" name="RST" type="passive"/>
+        <pin num="6" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SparkFun-Resistors" part="10KOHM-0603-1_10W-1%">
+      <description>10k  resistor A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia</description>
+      <footprints>
+        <fp>*0603*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">10KOHM-0603-1_10W-1%</field>
+        <field name="Footprint">0603</field>
+        <field name="Field4">RES-00824</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SparkFun-Resistors" part="33OHM-0603-1_10W-1%">
+      <description>33  resistor A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia</description>
+      <footprints>
+        <fp>*0603*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">33OHM-0603-1_10W-1%</field>
+        <field name="Footprint">0603</field>
+        <field name="Field4">RES-08270</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="MS563702BA03-50">
+      <uri>R:/Users/darkb/Dropbox/KiCAD_Libraries/LIB_MS563702BA03-50/MS563702BA03-50/KiCad/MS563702BA03-50.lib</uri>
+    </library>
+    <library logical="My_IC">
+      <uri>R:/Users/darkb/Dropbox/KiCAD_Libraries/MyStuff/My_IC.lib</uri>
+    </library>
+    <library logical="SparkFun-Capacitors">
+      <uri>R:/Users/darkb/Dropbox/KiCAD_Libraries/SparkFun-KiCad-Libraries-master/Libraries/SparkFun-Capacitors.lib</uri>
+    </library>
+    <library logical="SparkFun-Connectors">
+      <uri>R:/Users/darkb/Dropbox/KiCAD_Libraries/SparkFun-KiCad-Libraries-master/Libraries/SparkFun-Connectors.lib</uri>
+    </library>
+    <library logical="SparkFun-Resistors">
+      <uri>R:/Users/darkb/Dropbox/KiCAD_Libraries/SparkFun-KiCad-Libraries-master/Libraries/SparkFun-Resistors.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="U1" pin="D2"/>
+      <node ref="U1" pin="D3"/>
+      <node ref="IC1" pin="4"/>
+      <node ref="D1" pin="1"/>
+      <node ref="J1" pin="6"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C2" pin="2"/>
+    </net>
+    <net code="2" name="+BATT">
+      <node ref="R3" pin="1"/>
+      <node ref="U1" pin="D4"/>
+      <node ref="IC1" pin="1"/>
+      <node ref="R1" pin="2"/>
+      <node ref="C1" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="3" name="/MOSI">
+      <node ref="IC1" pin="2"/>
+      <node ref="J1" pin="4"/>
+      <node ref="U1" pin="A3"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="4" name="/RST">
+      <node ref="R1" pin="1"/>
+      <node ref="J1" pin="5"/>
+      <node ref="U1" pin="B4"/>
+    </net>
+    <net code="5" name="/SCL">
+      <node ref="R3" pin="2"/>
+      <node ref="U1" pin="B1"/>
+      <node ref="J1" pin="3"/>
+      <node ref="IC1" pin="3"/>
+    </net>
+    <net code="6" name="/MISO">
+      <node ref="J1" pin="1"/>
+      <node ref="U1" pin="A2"/>
+    </net>
+    <net code="7" name="Net-(D1-Pad2)">
+      <node ref="R4" pin="1"/>
+      <node ref="D1" pin="2"/>
+    </net>
+    <net code="8" name="Net-(R4-Pad2)">
+      <node ref="U1" pin="D1"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="9" name="Net-(U1-PadC4)">
+      <node ref="U1" pin="C4"/>
+    </net>
+    <net code="10" name="Net-(U1-PadA4)">
+      <node ref="U1" pin="A4"/>
+    </net>
+    <net code="11" name="Net-(U1-PadC3)">
+      <node ref="U1" pin="C3"/>
+    </net>
+    <net code="12" name="Net-(U1-PadB3)">
+      <node ref="U1" pin="B3"/>
+    </net>
+    <net code="13" name="Net-(U1-PadC2)">
+      <node ref="U1" pin="C2"/>
+    </net>
+    <net code="14" name="Net-(U1-PadB2)">
+      <node ref="U1" pin="B2"/>
+    </net>
+    <net code="15" name="Net-(U1-PadC1)">
+      <node ref="U1" pin="C1"/>
+    </net>
+  </nets>
+</export>
