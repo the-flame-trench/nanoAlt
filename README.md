@@ -1,5 +1,5 @@
 # nanoAlt
-This repo contains the open source hardware and software for [The Flame Trench](http://theflametrench)'s nanoAlt nano-scale rocketry altimeter family.
+This repo contains the open source hardware and software for [The Flame Trench](http://theflametrench.com)'s nanoAlt nano-scale rocketry altimeter family.
 
 The project is not currently being prioritised, but we hope to be able to make nanoAlt Alpha available in kit form soon.
 
